@@ -5,9 +5,9 @@ pipeline {
   }
   environment {
     HEROKU_API_KEY = credentials('heroku-api-key')
-    IMAGE_NAME = 'darinpope/jenkins-example-react'
+    IMAGE_NAME = 'dithiane/dithiane-jenkins-react'
     IMAGE_TAG = 'latest'
-    APP_NAME = 'jenkins-example-react'
+    APP_NAME = 'dithiane-jenkins-react'
   }
   stages {
     stage('Build') {
